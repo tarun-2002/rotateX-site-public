@@ -1,0 +1,59 @@
+.current-number-text {
+    color: #555;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.current-number-sub-text {
+    color: var(--neutrals-opaque-grey-800, #616161);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.box1-stats {
+    border-radius: 4px;
+    border: 1px solid rgba(255, 136, 38, 0.15);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.19) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 117, 4, 0.04);
+}
+
+.box2-stats {
+    border-radius: 4px;
+    border: 1px solid rgba(241, 73, 120, 0.15);
+    background: rgba(241, 73, 120, 0.04);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.04);
+}
+
+.box3-stats {
+    border-radius: 4px;
+    border: 1px solid rgba(4, 142, 255, 0.15);
+    background: rgba(4, 142, 255, 0.04);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.04);
+}
+
+.box4-stats {
+    border-radius: 4px;
+    border: 1px solid rgba(143, 68, 255, 0.15);
+    background: rgba(143, 68, 255, 0.04);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.04);
+}
+
+.stat-block-head {
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+}
+
+.stat-block-subhead {
+    color: var(--neutrals-opaque-grey-800, #616161);
+    text-align: center;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    /* 18px */
+    text-transform: uppercase;
+}

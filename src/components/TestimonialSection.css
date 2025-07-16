@@ -1,0 +1,92 @@
+.praise-text-head {
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.swipe-text-head {
+    color: var(--neutrals-opaque-grey-300, #F0F0F0);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Fira Sans", sans-serif !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.mySwiperPraise {
+    margin-top: 20px;
+}
+
+.swiper {
+    width: 240px;
+    height: 320px;
+}
+
+.swiper-slide {
+    display: flex;
+
+    padding: 32px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.12);
+    justify-content: center;
+}
+
+.coll-logo {
+
+    height: 50px;
+    border-radius: 3.725px;
+
+}
+
+.praise-text {
+    align-self: stretch;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    /* 25.6px */
+    letter-spacing: -0.32px;
+}
+
+.praise-avatar {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 72px;
+    background: url("https://ik.imagekit.io/4v5br2pcf/Profill/Frame%201394.png?updatedAt=1712231780428") lightgray 50% / cover no-repeat;
+
+}
+
+.praise-user {
+    color: var(--neutrals-opaque-grey-900, #3D3D3D);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 21px */
+}
+
+.praise-user-ed {
+    display: inline-block;
+    color: #616161;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 18px */
+    letter-spacing: -0.12px;
+}

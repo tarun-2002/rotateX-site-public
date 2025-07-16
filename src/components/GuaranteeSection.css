@@ -1,0 +1,15 @@
+.guarenteed-text {
+    color: var(--Type-Brand-Preppa, #0C7BEB);
+    text-align: center;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.guarenteed-subtext {
+    color: #8A8A8A;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    /* 170% */
+}

@@ -1,0 +1,21 @@
+.new-text {
+    color: var(--Type-Brand-Preppa, #0C7BEB);
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    /* 150% */
+}
+
+.stats-main-text {
+    color: #161C2D;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.stats-sub-text {
+    color: #161C2D;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}

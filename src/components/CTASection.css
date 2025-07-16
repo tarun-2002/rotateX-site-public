@@ -1,0 +1,35 @@
+.cta-text {
+    color: var(--neutrals-opaque-grey-100, #FAFAFA);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.cta-text-font {
+    color: var(--neutrals-opaque-grey-100, #FAFAFA);
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    /* 24px */
+}
+
+.cta-subtext-font {
+    font-family: "Fira Sans", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    /* 24px */
+}
+
+.button-grad {
+    border-radius: 50px;
+    background: linear-gradient(90deg, #FF8E07 0%, #FF7504 50%, #FF7504 100%);
+    box-shadow: 0px 0px 12px 0px rgba(255, 117, 4, 0.06);
+    color: #FFF;
+
+/* Mobile/Button Text */
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+}
+
