@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .hero-text {
     color: var(--Type-Neutrals-Main-Header, #222);
@@ -34,10 +35,8 @@
 
 .waitlist-button {
     height: 40px;
-    padding: 16px 24px;
     justify-content: center;
     align-items: center;
-    gap: 8px;
     border-radius: 50px;
     background: #0C7BEB;
     box-shadow: 0px 0px 12px 0px rgba(255, 117, 4, 0.06);
@@ -45,10 +44,6 @@
     width: 200px;
     /* Marketing/Mobile/Buttons/Btn1 */
     font-family: Poppins;
-    font-size: 14px;
     font-style: normal;
     font-weight: 600;
-    line-height: 100%;
-    /* 14px */
-    letter-spacing: -0.28px;
 }

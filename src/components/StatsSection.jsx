@@ -2,7 +2,7 @@ import React from "react";
 import './StatsSection.css'; // Assuming you have a CSS file for styles
 export default function StatsSection() {
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-12 pb-0">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:justify-between px-6">
         {/* Left: Text */}
         <div className="flex-1 flex flex-col items-start justify-center mb-8 md:mb-0">

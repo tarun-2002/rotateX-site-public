@@ -9,7 +9,7 @@ export default function QuestionSection() {
         <div className="flex flex-row sm:flex-row gap-4 w-full justify-center">
           <a
             href="#"
-            className="flex items-center justify-center gap-2 px-6 py-3 rounded-full border-2 border-orange-400 text-orange-500 font-semibold bg-white hover:bg-orange-50 transition text-base w-full sm:w-auto ques-button-box font-text-styling"
+            className="flex items-center justify-center gap-2 rounded-full border-2 border-orange-400 text-orange-500 font-semibold bg-white hover:bg-orange-50 transition text-base w-full sm:w-auto ques-button-box font-text-styling"
           >
             <span className="inline-block">
               {/* Chat icon (Heroicons outline chat) */}

@@ -52,7 +52,7 @@ export default function FooterSection() {
       {/* Bottom row */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center gap-4 text-gray-500 text-sm px-2">
         <div className="flex flex-col md:flex-row md:items-center gap-2 font-text-styling">
-          <span >© 2021 rotateX</span>
+          <span >© 2025 rotateX</span>
           <span className="hidden md:inline mx-2">|</span>
           <a href="#" className="hover:underline">Privacy Policy</a>
           <span className="hidden md:inline mx-2">|</span>

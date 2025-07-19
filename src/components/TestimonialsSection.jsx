@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './TestimonialSection.css'; // Assuming you have a CSS file for styles'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

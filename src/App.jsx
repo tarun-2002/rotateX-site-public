@@ -15,6 +15,7 @@ import WaitlistPage from "./components/WaitlistPage";
 import Steps from "./components/stepsComponents/Steps";
 import Resources from "./components/resourcesAndToolsComponents/Home";
 import { Routes, Route } from "react-router-dom";
+import CompareReturns from "./components/CompareReturns";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
               <SmartSection />
               <ControlSection />
               <StatsSection />
+              <CompareReturns />
               <SaveBigSection />
               <GuaranteeSection />
               <TestimonialsSection />
@@ -40,7 +42,7 @@ export default function App() {
           }
         />
         <Route path="/waitlist" element={<WaitlistPage />} />
-        <Route path='/steps' element={<Steps/>} />
+        <Route path='/steps' element={<Steps />} />
         <Route path='/resources-tools' element={<Resources />} />
       </Routes>
     </div>
