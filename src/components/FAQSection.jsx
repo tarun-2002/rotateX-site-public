@@ -53,7 +53,7 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="bg-white py-12 px-6">
+    <section className="bg-white py-12 px-6" id="faq">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
         {/* Left: FAQ Tabs and Accordions */}
         <div className="flex-1 max-w-2xl mx-auto md:mx-0">

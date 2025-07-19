@@ -14,10 +14,9 @@ function Resources() {
       <Navbar />
       <InvestmentAdviceBanner />
       <InvestmentCalculator />
-      <InvestmentOptionsSlider />
-      <HighReturnSlotsCard />
+      {/* <InvestmentOptionsSlider /> */}
+      {/* <HighReturnSlotsCard />
 
-      {/* Blogs Section */}
       <section className="md:bg-[#f7f7f7] bg-white py-12 md:pt-0 px-6">
         <div className="max-w-7xl mx-auto ">
           <div className="flex flex-row items-center justify-between mb-8 gap-4">
@@ -28,7 +27,7 @@ function Resources() {
         </div>
       </section>
 
-      <RealEstateFAQ />
+      <RealEstateFAQ /> */}
 
       <FooterSection />
     </div>

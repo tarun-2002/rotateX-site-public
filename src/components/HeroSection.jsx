@@ -7,7 +7,7 @@ export default function HeroSection() {
   const navigate = useNavigate();
   return (
     <>
-      <section className="bg-white pt-16 pb-40 md:py-28 px-8 mt-24">
+      <section className="bg-white pt-12 pb-40 md:py-28 px-8 mt-24">
         <div className="max-w-full mx-auto flex flex-col md:flex-row md:items-center md:justify-between">
           {/* Left: Text */}
           <div className="flex-1 flex flex-col items-start justify-center mb-24 md:mb-0">

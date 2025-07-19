@@ -5,11 +5,8 @@
     height: 32px;
 }
 
-.nav-text:hover {
+.nav-text {
     font-family: "Fira Sans", sans-serif !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    color: #0C7BEB !important;
     transition: color 0.3s ease !important;
 }
 

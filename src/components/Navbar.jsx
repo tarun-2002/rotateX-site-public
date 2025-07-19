@@ -22,8 +22,8 @@ export default function Navbar() {
       </div>
       {/* Desktop Nav */}
       <nav className="hidden md:flex space-x-6">
-        <a href="#" className="text-gray-700 hover:text-blue-600 nav-text">Product</a>
-        <a href="#" className="text-gray-700 hover:text-blue-600 nav-text">Company</a>
+        <a href="/" className="text-gray-700 hover:text-blue-600 nav-text">Product</a>
+        <a href="/" className="text-gray-700 hover:text-blue-600 nav-text">Company</a>
 
         <Link
           to="/resources-tools"
@@ -41,10 +41,10 @@ export default function Navbar() {
           Steps to How?
         </Link>
 
-        <a href="#" className="text-gray-700 hover:text-blue-600 nav-text">FAQs</a>
+        <a href="#faq" className="text-gray-700 hover:text-blue-600 nav-text">FAQs</a>
       </nav>
       <button
-        className="bg-blue-600 text-white px-4 py-2 rounded-xl md:ml-4 hover:bg-blue-700 hidden md:block"
+        className="bg-blue-600 text-white px-12 py-2 rounded-2xl md:ml-4 hover:bg-blue-700 hidden md:block"
         onClick={() => navigate('/waitlist')}
       >
         Join Waitlist
@@ -65,8 +65,8 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-center py-4 md:hidden animate-fade-in z-40">
-          <a href="#" className="text-gray-700 hover:text-blue-600 py-2 w-full text-center nav-text">Product</a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 py-2 w-full text-center nav-text">Company</a>
+          <a href="/" className="text-gray-700 hover:text-blue-600 py-2 w-full text-center nav-text">Product</a>
+          <a href="/" className="text-gray-700 hover:text-blue-600 py-2 w-full text-center nav-text">Company</a>
 
           <Link
             to="/resources-tools"
@@ -83,9 +83,9 @@ export default function Navbar() {
           >
             Steps to How?
           </Link>
-          <a href="#" className="text-gray-700 hover:text-blue-600 py-2 w-full text-center nav-text">FAQs</a>
+          <a href="#faq" className="text-gray-700 hover:text-blue-600 py-2 w-full text-center nav-text">FAQs</a>
           <button
-            className="bg-blue-600 text-white px-4 py-2 rounded-xl mt-4 w-11/12 max-w-xs hover:bg-blue-700 nav-text"
+            className="bg-blue-600 text-white px-4 py-2 rounded-2xl mt-4 w-11/12 max-w-xs hover:bg-blue-700 nav-text"
             onClick={() => navigate('/waitlist')}
           >
             Join Waitlist

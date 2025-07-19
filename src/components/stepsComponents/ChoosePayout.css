@@ -1,0 +1,10 @@
+.steps-heading-font {
+    color: #3051BB;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Fira Sans", sans-serif !important;
+}
+
+.steps-subheading {
+    font-family: Poppins;
+}

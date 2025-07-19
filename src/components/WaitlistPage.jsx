@@ -12,7 +12,7 @@ export default function WaitlistPage() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       <Navbar />
-      <main className="flex-1 flex flex-col items-center px-4 pt-6 pb-8 max-w-md mx-auto w-full">
+      <main className="flex-1 flex flex-col items-center px-4 pt-6 pb-8 max-w-md mx-auto w-full mt-24">
         <h1 className="text-2xl font-semibold text-left w-full mb-1 mt-2">Join Waitlist & Earn<br />early rewards</h1>
         <p className="text-gray-600 text-left w-full mb-6 text-base">Add your contact info and our support team will connect with you as soon as possible.</p>
         <form className="w-full flex flex-col gap-4 mb-6">
@@ -40,8 +40,8 @@ export default function WaitlistPage() {
           </button>
         </form>
         {/* Live Map using react-leaflet */}
-        <div className="w-full mb-6 rounded-xl overflow-hidden border border-gray-200" style={{height: 200, minHeight: 120}}>
-          <MapContainer center={companyPosition} zoom={16} scrollWheelZoom={false} style={{height: '100%', width: '100%'}}>
+        <div className="w-full mb-6 rounded-xl overflow-hidden border border-gray-200" style={{ height: 200, minHeight: 120 }}>
+          <MapContainer center={companyPosition} zoom={16} scrollWheelZoom={false} style={{ height: '100%', width: '100%' }}>
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
